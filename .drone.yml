@@ -1,0 +1,4 @@
+image: bradrydzewski/android:r24
+env:
+script:
+  - ./gradlew test assemble -PdisablePreDex
